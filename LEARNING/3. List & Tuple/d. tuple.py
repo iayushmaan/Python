@@ -15,5 +15,3 @@ tup = (1, )
 print(tup)
 print(type(tup))
 # A single-element tuple is created by placing a comma (,) after its value.
-
-
