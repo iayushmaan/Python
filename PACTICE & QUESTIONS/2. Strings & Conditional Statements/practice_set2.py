@@ -59,4 +59,24 @@
 
 
 
-# QUE 4
+# # QUE 4
+# a = int(input("Enter 1st side: "))
+# b = int(input("Enter 2nd side: "))
+# c = int(input("Enter 3rd side: "))
+
+# if a <= 0 or b <= 0 or c <= 0:
+#     print("Enter valid sides")
+# elif a + b <= c or a + c <= b or b + c <= a:
+#     print("Not a valid triangle")
+# elif a == b == c:
+#     print("Equilateral")
+# elif a == b or b == c or a == c:
+#     print("Isosceles")
+# else:
+#     print("Scalene")
+
+
+
+
+
+# QUE 5
