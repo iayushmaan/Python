@@ -34,13 +34,25 @@
 
 
 
-# QUE 3
-user_balance = 5000
-x = int(input("enter withdrawl amount : "))
-if x <= 0:
-    print("error")
-elif x > user_balance:
-    print("not sufficient balance")
+# # QUE 3
+# user_balance = 5000
+# x = int(input("enter withdrawl amount : "))
+# if x <= 0:
+#     print("error")
+# elif x > user_balance:
+#     print("not sufficient balance")
+# else:
+#     print("successfully withdrawal")
+#     print("remaining balance :", user_balance - x)
+
+
+
+
+
+
+# QUE 4
+x = int(input("enter a no. : "))
+if x >= 10 and x <= 50:
+    print("The number is between 10 and 50.")
 else:
-    print("successfully withdrawal")
-    print("remaining balance :", user_balance - x)
+    print("The number is out of range.")
