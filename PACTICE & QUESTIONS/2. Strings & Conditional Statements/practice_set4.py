@@ -9,3 +9,14 @@ else:
     bill = (100 * 5) + (100 * 7) + (units - 200) * 10
 
 print("Electricity Bill = Rs.", bill)
+
+
+
+
+
+# QUE 2 
+x = int(input("enter a no. : "))
+if x < 10 or x > 50:
+    print("not in range")
+elif x >= 10 and x <= 50:
+    print("in range")
