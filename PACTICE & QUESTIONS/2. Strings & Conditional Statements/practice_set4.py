@@ -20,3 +20,25 @@ if x < 10 or x > 50:
     print("not in range")
 elif x >= 10 and x <= 50:
     print("in range")
+
+
+
+
+
+# QUE 3
+username = input("Enter your username: ")
+
+if len(username) < 5 or len(username) > 12:
+    print("Invalid Username")
+
+elif username[0].isdigit():
+    print("Invalid Username")
+
+elif " " in username:
+    print("Invalid Username")
+
+elif "admin" in username.lower():
+    print("Invalid Username")
+
+else:
+    print("Valid Username")
