@@ -16,6 +16,7 @@ print("Electricity Bill = Rs.", bill)
 
 # QUE 2 
 x = int(input("enter a no. : "))
+
 if x < 10 or x > 50:
     print("not in range")
 elif x >= 10 and x <= 50:
@@ -42,3 +43,18 @@ elif "admin" in username.lower():
 
 else:
     print("Valid Username")
+
+
+
+
+
+
+# QUE 4
+x = int(input("enter a no. : "))
+
+if x < 0:
+    print(" negative no. ")
+elif x > 0:
+    print(" positive no. ")
+else:
+    print(" zero ")
