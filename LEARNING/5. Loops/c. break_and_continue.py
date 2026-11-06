@@ -7,3 +7,7 @@
 # and moves to the next iteration of the loop.
 
 
+count = 1
+while count <= 5:
+    print("yo")
+    count += 1
