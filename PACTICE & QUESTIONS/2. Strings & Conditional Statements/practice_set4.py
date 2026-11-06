@@ -58,3 +58,15 @@ elif x > 0:
     print(" positive no. ")
 else:
     print(" zero ")
+
+
+
+
+
+# QUE 5
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
