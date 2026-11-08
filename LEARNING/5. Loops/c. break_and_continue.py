@@ -6,9 +6,3 @@
 # The continue statement skips the current iteration
 # and moves to the next iteration of the loop.
 
-
-count = 1
-while count <= 5:
-    print("yo")
-    count += 1
-
