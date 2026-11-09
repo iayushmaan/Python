@@ -80,18 +80,18 @@ else:
 
 
 # QUE 6
-age = int(input("Enter your age: "))
+x = int(input("Enter your age: "))
 
-if age < 0:
+if x < 0:
     print("Invalid Age")
 
-elif age < 5:
+elif x < 5:
     print("Free Ticket")
 
-elif age <= 17:
+elif x <= 17:
     print("Ticket Price: Rs. 100")
 
-elif age < 60:
+elif x < 60:
     print("Ticket Price: Rs. 200")
 
 else:
