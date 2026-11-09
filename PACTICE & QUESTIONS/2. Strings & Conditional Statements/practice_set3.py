@@ -74,3 +74,25 @@ elif a.isalpha():
         print("Consonant")
 else:
     print("Not an alphabet")
+
+
+
+
+
+# QUE 6
+age = int(input("Enter your age: "))
+
+if age < 0:
+    print("Invalid Age")
+
+elif age < 5:
+    print("Free Ticket")
+
+elif age <= 17:
+    print("Ticket Price: Rs. 100")
+
+elif age < 60:
+    print("Ticket Price: Rs. 200")
+
+else:
+    print("Ticket Price: Rs. 150")
