@@ -96,3 +96,26 @@ elif x < 60:
 
 else:
     print("Ticket Price: Rs. 150")
+
+
+
+
+
+
+# QUE 7
+hours = float(input("Enter parking hours: "))
+
+if hours <= 0:
+    print("Invalid Input")
+
+elif hours <= 1:
+    print("Parking Fee: Rs. 20")
+
+elif hours <= 3:
+    print("Parking Fee: Rs. 50")
+
+elif hours <= 6:
+    print("Parking Fee: Rs. 100")
+
+else:
+    print("Parking Fee: Rs. 150")
