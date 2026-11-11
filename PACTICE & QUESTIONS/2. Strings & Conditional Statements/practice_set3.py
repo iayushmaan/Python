@@ -119,3 +119,21 @@ elif hours <= 6:
 
 else:
     print("Parking Fee: Rs. 150")
+
+
+
+
+
+# QUE 8
+x = int(input("enter shopping amount :"))
+
+if x <= 0:
+    print("Invalid Amount")
+elif x < 500:
+    print("Delivery Charge: 80")
+elif x >= 500 and x < 1000:
+    print("Delivery Charge: 50")
+elif x >= 1000 and x < 2000:
+    print("Delivery Charge: 20")
+else:
+    print("Free Delivery")
