@@ -137,3 +137,33 @@ elif x >= 1000 and x < 2000:
     print("Delivery Charge: 20")
 else:
     print("Free Delivery")
+
+
+
+
+
+
+# QUE 9
+salary = int(input("Enter salary: "))
+experience = float(input("Enter experience (years): "))
+
+if salary < 0 or experience < 0:
+    print("Invalid Input")
+
+elif experience < 1:
+    print("No Bonus")
+
+elif experience <= 3:
+    bonus = salary * 5 / 100
+    print("Bonus: Rs.", bonus)
+    print("Total Salary: Rs.", salary + bonus)
+
+elif experience <= 5:
+    bonus = salary * 10 / 100
+    print("Bonus: Rs.", bonus)
+    print("Total Salary: Rs.", salary + bonus)
+
+else:
+    bonus = salary * 15 / 100
+    print("Bonus: Rs.", bonus)
+    print("Total Salary: Rs.", salary + bonus)
