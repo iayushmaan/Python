@@ -1,4 +1,4 @@
-# # QUE 1
+# QUE 1
 num = int(input("enter ur no. :"))
 if(num%2==0):
     print("ODD")
@@ -6,7 +6,7 @@ else:
     print("EVEN")
 
 
-# # QUE 2
+# QUE 2
 a = int(input("enter first no. :"))
 b = int(input("enter second no. :"))
 c = int(input("enter third no. :"))
@@ -18,7 +18,7 @@ else:
     print("third no. is largest:", c)
 
 
-# # QUE 3
+# QUE 3
 a = int(input("enter first no. :"))
 b = int(input("enter second no. :"))
 c = int(input("enter third no. :"))
