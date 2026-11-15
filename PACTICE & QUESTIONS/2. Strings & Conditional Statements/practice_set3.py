@@ -167,3 +167,30 @@ else:
     bonus = salary * 15 / 100
     print("Bonus: Rs.", bonus)
     print("Total Salary: Rs.", salary + bonus)
+
+
+
+
+
+
+#Que 10
+data = float(input("Enter your data usage (GB): "))
+
+if data <= 0:
+    print("Invalid Input")
+
+elif data <= 5:
+    print("Recommended Plan: Basic")
+    print("Recharge Amount: Rs. 99")
+
+elif data <= 15:
+    print("Recommended Plan: Standard")
+    print("Recharge Amount: Rs. 199")
+
+elif data <= 30:
+    print("Recommended Plan: Premium")
+    print("Recharge Amount: Rs. 299")
+
+else:
+    print("Recommended Plan: Unlimited")
+    print("Recharge Amount: Rs. 399")
