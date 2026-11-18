@@ -17,6 +17,8 @@ Topics covered:
 - Lists & Tuples
 - Dictionaries & Sets
 - Loops
+- Functions & Recursion
+- File I/O
 - More topics coming soon!
 
 ### 2. PRACTICE & QUESTIONS
