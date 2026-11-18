@@ -11,7 +11,7 @@ I'm using this repository to track my progress, practice concepts, and improve m
 ### 1. LEARNING
 Contains Python concepts I've learned, along with code examples.
 
-Topics covered:
+Topics explored:
 - Variables & Data Types
 - Strings & Conditional Statements
 - Lists & Tuples
