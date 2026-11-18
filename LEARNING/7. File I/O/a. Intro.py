@@ -83,6 +83,10 @@
 
 
 
+#Truncate → To remove existing content from a file.
+#Append → To add new content at the end of existing content.
+#Overwrite → To replace existing content with new content.
+
 
 
 f = open("/Users/ayushmaan/Desktop/Python🐍/LEARNING/7. File I/O/demo.txt", "r")
