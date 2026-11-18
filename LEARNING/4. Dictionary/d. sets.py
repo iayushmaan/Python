@@ -44,4 +44,3 @@ print(len(collection))
 
 coll = set()
 print(type(coll)) #empty set; syntax
-

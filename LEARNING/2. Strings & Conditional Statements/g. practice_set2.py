@@ -1,9 +1,9 @@
 # QUE 1
 num = int(input("enter ur no. :"))
 if(num%2==0):
-    print("ODD")
-else:
     print("EVEN")
+else:
+    print("ODD")
 
 
 # QUE 2
