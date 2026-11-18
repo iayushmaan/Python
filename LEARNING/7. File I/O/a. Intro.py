@@ -89,7 +89,7 @@
 
 
 
-f = open("/Users/ayushmaan/Desktop/Python🐍/LEARNING/7. File I/O/demo.txt", "r")
+f = open("/Users/ayushmaan/Desktop/Python🐍/LEARNING/7. File I/O/sample.txt", "r")
 data = f.read()
 print(data)
 print(type(data))
@@ -97,7 +97,7 @@ f.close()
 
 
 
-f = open("/Users/ayushmaan/Desktop/Python🐍/LEARNING/7. File I/O/demo.txt", "r")
+f = open("/Users/ayushmaan/Desktop/Python🐍/LEARNING/7. File I/O/sample.txt", "r")
 data = f.read(8)
 print(data)
 print(type(data))

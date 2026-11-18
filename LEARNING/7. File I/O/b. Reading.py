@@ -12,7 +12,7 @@
 
 
 # --->
-f = open("/Users/ayushmaan/Desktop/Python🐍/LEARNING/7. File I/O/demo.txt", "r")
+f = open("/Users/ayushmaan/Desktop/Python🐍/LEARNING/7. File I/O/sample.txt", "r")
 
 line1 = f.readline()
 print(line1)
@@ -26,7 +26,7 @@ f.close()
 
 
 # --->
-f = open("/Users/ayushmaan/Desktop/Python🐍/LEARNING/7. File I/O/demo.txt", "r")
+f = open("/Users/ayushmaan/Desktop/Python🐍/LEARNING/7. File I/O/sample.txt", "r")
 
 read = f.read()
 print(read)

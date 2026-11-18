@@ -17,7 +17,7 @@
 
 #1
 #--->
-f = open("/Users/ayushmaan/Desktop/Python🐍/LEARNING/7. File I/O/demo.txt", "w")
+f = open("/Users/ayushmaan/Desktop/Python🐍/LEARNING/7. File I/O/sample.txt", "w")
 
 f.write("Just a guy learning Python and figuring things out.")
 
@@ -27,7 +27,7 @@ f.close()
 
 
 #--->
-f = open("/Users/ayushmaan/Desktop/Python🐍/LEARNING/7. File I/O/demo.txt", "a")
+f = open("/Users/ayushmaan/Desktop/Python🐍/LEARNING/7. File I/O/sample.txt", "a")
 
 f.write("\nPython")
 
