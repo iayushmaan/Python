@@ -19,7 +19,7 @@ Topics explored:
 - Loops
 - Functions & Recursion
 - File I/O
-- More topics coming soon!
+- Object-Oriented Programming (OOP)
 
 ### 2. PRACTICE & QUESTIONS
 Contains practice questions and exercises related to the concepts I'm learning.
