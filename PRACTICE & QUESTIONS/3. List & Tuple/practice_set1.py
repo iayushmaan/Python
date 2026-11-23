@@ -59,3 +59,50 @@ print(len(my_tuple))
 # Final List and Tuple
 print(my_list)
 print(my_tuple)
+
+
+
+
+
+# QUE 3
+
+# Creating a list
+my_list = [15, 22, 8, 31, 44, 17, 50, 9, 26, 13]
+
+# Printing even numbers
+print("Even Numbers:")
+for i in my_list:
+    if i % 2 == 0:
+        print(i)
+
+# Printing odd numbers
+print("Odd Numbers:")
+for i in my_list:
+    if i % 2 != 0:
+        print(i)
+
+# Sum of even numbers
+even_sum = 0
+for i in my_list:
+    if i % 2 == 0:
+        even_sum += i
+
+print("Sum of Even:", even_sum)
+
+# Sum of odd numbers
+odd_sum = 0
+for i in my_list:
+    if i % 2 != 0:
+        odd_sum += i
+
+print("Sum of Odd:", odd_sum)
+
+# Sorting List
+my_list.sort()
+print("Sorted List:", my_list)
+
+# Converting List into Tuple
+my_tuple = tuple(my_list)
+
+print("Final List:", my_list)
+print("Final Tuple:", my_tuple)
