@@ -106,3 +106,39 @@ my_tuple = tuple(my_list)
 
 print("Final List:", my_list)
 print("Final Tuple:", my_tuple)
+
+
+
+
+
+
+# QUE 4
+
+# Creating a List
+my_list = [10, 20, 30, 40, 50, 20, 60, 70, 80, 90]
+
+# Second Largest
+a = sorted(set(my_list))
+print("Second Largest:", a[-2])
+
+# Second Smallest
+print("Second Smallest:", a[1])
+
+# Counting elements
+n = int(input("Enter a number to count: "))
+print("Count:", my_list.count(n))
+
+# Reversing List
+my_list.reverse()
+print("Reversed List:", my_list)
+
+# Copying List
+new_list = my_list.copy()
+print("Copied List:", new_list)
+
+# Converting List into Tuple
+my_tuple = tuple(new_list)
+
+# Final Output
+print("Final List:", new_list)
+print("Final Tuple:", my_tuple)
