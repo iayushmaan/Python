@@ -142,3 +142,44 @@ my_tuple = tuple(new_list)
 # Final Output
 print("Final List:", new_list)
 print("Final Tuple:", my_tuple)
+
+
+
+
+
+
+# QUE 5
+
+# Creating a List
+my_list = [10, -20, 30, -40, 50, -60, 70, -80, 90, -100]
+
+# Creating empty Lists
+positive = []
+negative = []
+
+# Separating positive and negative numbers
+for i in my_list:
+    if i > 0:
+        positive.append(i)
+    elif i < 0:
+        negative.append(i)
+
+# Counting numbers
+print("Positive Count:", len(positive))
+print("Negative Count:", len(negative))
+
+# Sum of numbers
+print("Positive Sum:", sum(positive))
+print("Negative Sum:", sum(negative))
+
+# Converting into Tuples
+pos_tuple = tuple(positive)
+neg_tuple = tuple(negative)
+
+# Printing Lists
+print("Positive List:", positive)
+print("Negative List:", negative)
+
+# Printing Tuples
+print("Positive Tuple:", pos_tuple)
+print("Negative Tuple:", neg_tuple)
