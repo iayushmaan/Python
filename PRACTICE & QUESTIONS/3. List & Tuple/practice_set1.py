@@ -183,3 +183,41 @@ print("Negative List:", negative)
 # Printing Tuples
 print("Positive Tuple:", pos_tuple)
 print("Negative Tuple:", neg_tuple)
+
+
+
+
+
+# QUE 6
+
+# Creating a List
+my_list = [12, 15, 20, 9, 30, 25, 18, 7, 21, 10]
+
+# Creating empty Lists
+divisible = []
+square = []
+
+# Finding numbers divisible by 3
+for i in my_list:
+    if i % 3 == 0:
+        divisible.append(i)
+
+# Finding square of numbers
+for i in divisible:
+    square.append(i ** 2)
+
+# Maximum and Minimum
+print("Maximum:", max(square))
+print("Minimum:", min(square))
+
+# Converting into Tuples
+t1 = tuple(divisible)
+t2 = tuple(square)
+
+# Printing Results
+print("Original List:", my_list)
+print("Divisible by 3:", divisible)
+print("Square List:", square)
+
+print("First Tuple:", t1)
+print("Second Tuple:", t2)
