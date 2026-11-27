@@ -221,3 +221,43 @@ print("Square List:", square)
 
 print("First Tuple:", t1)
 print("Second Tuple:", t2)
+
+
+
+
+
+
+# QUE 7
+
+# Creating a List
+my_list = [10, 20, 30, 20, 40, 50, 30, 60, 70, 10]
+
+# Creating empty List
+duplicate = []
+
+# Finding duplicate elements
+for i in my_list:
+    if my_list.count(i) > 1:
+        if i not in duplicate:
+            duplicate.append(i)
+
+# Removing duplicates
+unique = list(set(my_list))
+
+# Sorting in descending order
+unique.sort(reverse=True)
+
+# Finding sum
+print("Sum:", sum(unique))
+
+# Converting into Tuples
+t1 = tuple(duplicate)
+t2 = tuple(unique)
+
+# Printing Results
+print("Original List:", my_list)
+print("Duplicate List:", duplicate)
+print("Unique List:", unique)
+
+print("Duplicate Tuple:", t1)
+print("Unique Tuple:", t2)
