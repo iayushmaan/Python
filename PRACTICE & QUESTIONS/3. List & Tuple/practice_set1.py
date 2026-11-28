@@ -261,3 +261,49 @@ print("Unique List:", unique)
 
 print("Duplicate Tuple:", t1)
 print("Unique Tuple:", t2)
+
+
+
+
+
+
+# QUE 8
+
+# Creating a List
+my_list = [12, 7, 15, 11, 20, 13, 9, 17, 25, 19]
+
+# Creating empty List
+prime = []
+
+# Finding prime numbers
+for i in my_list:
+    if i > 1:
+        count = 0
+
+        for j in range(1, i + 1):
+            if i % j == 0:
+                count += 1
+
+        if count == 2:
+            prime.append(i)
+
+# Counting prime numbers
+print("Total Prime Numbers:", len(prime))
+
+# Sum of prime numbers
+print("Sum:", sum(prime))
+
+# Largest and Smallest
+print("Largest:", max(prime))
+print("Smallest:", min(prime))
+
+# Reversing List
+prime.reverse()
+
+# Converting into Tuple
+my_tuple = tuple(prime)
+
+# Printing Results
+print("Original List:", my_list)
+print("Prime List:", prime)
+print("Prime Tuple:", my_tuple)
